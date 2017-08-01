@@ -1,0 +1,36 @@
+body{
+    margin:auto;
+    width: 50%;
+}
+
+#pyramid {
+    display: table;
+    border-spacing: 1px;
+    background-color:  white;
+}
+
+#draw-button{
+    background-color: lightgrey;
+}
+
+.row{
+    display: table-row;
+}
+
+.cell{
+    display: table-cell;
+    background-color: brown;
+    width:30px;
+    height: 30px;
+}
+
+.cell-hide{
+    display: table-cell;
+    background-color: white;
+    width:30px;
+    height: 30px;
+}
+
+.error-message{
+    color: red;
+}
